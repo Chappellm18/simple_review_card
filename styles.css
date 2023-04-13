@@ -1,0 +1,142 @@
+html {
+    margin:0;
+    background: rgb(47, 46, 45);
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    display:flex;
+    justify-content: center;
+}
+
+.review-card {
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+    background: #fff;
+    margin-top: 100px;
+}
+
+.review-card-header {
+    
+    height:75px;
+    border-bottom: 2px solid #c4c2c2;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.avatar img {
+    border-radius: 50%;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.username {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.handle {
+    font-size: 10px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.rating-stars {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rating-stars img {
+    height: 20px;
+    width: 20px;
+    padding-right: 5px;
+}
+
+
+.review-card-body {
+    padding: 10px;
+    height:150px;
+}
+
+
+
+
+.review-card-footer {
+    height: 60px;
+    border-top: 2px solid #c4c2c2;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    padding-top: 0;
+
+}
+
+.review-card-footer-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.review-card-footer-left-item {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-right:5px;
+    padding:5px;
+    padding-top:0;
+    border-radius: 5px;
+}
+.review-card-footer-left-item:hover {
+    background: #cbcbcb;
+}
+.review-card-footer-left-item img {
+    height:30px;
+    width:30px;
+}
+
+.review-card-footer-right-item {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+    margin-top:0;
+    border-radius: 5px;
+
+
+}
+.review-card-footer-right-item img {
+    height:30px;
+    width:30px;
+    margin: 5px;
+    margin-top:0;
+
+}
+.review-card-footer-right-item:hover {
+    background: #cbcbcb;
+}
